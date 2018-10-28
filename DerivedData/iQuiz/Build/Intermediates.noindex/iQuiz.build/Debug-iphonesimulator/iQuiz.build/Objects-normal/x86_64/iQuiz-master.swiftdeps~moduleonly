@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "9ce9dff68aac9f4285c758f82486725d"
+build_time: [1540712501, 657726000]
+inputs:
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/ViewController.swift": [1540712494, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/Topic.swift": [1540711193, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/TopicCell.swift": [1540711193, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/AppDelegate.swift": [1540602870, 0]
