@@ -11,10 +11,11 @@ import UIKit
 
 
 class AnswerController: UIViewController {
+    
+    // Fields
     @IBOutlet weak var btnNext: UIButton!
     @IBOutlet weak var lblResult: UILabel!
     @IBOutlet weak var lblQuestion: UILabel!
-    
     var questionAnswered = 0
     var questionRight = 0
     var correctAnswer = 0
@@ -23,32 +24,21 @@ class AnswerController: UIViewController {
     var question: String = ""
     var fromTopic: AnyObject = NSNull.self
     
-    @IBAction func swipeRight(_ sender: Any) {
-        performSegue(withIdentifier: "toMainFromAnswer", sender: self)
-    }
-    
-    @IBAction func swipeLeft(_ sender: Any) {
-        if(self.questionList.count == self.questionAnswered){
-            performSegue(withIdentifier: "toFinish", sender: self)
-        }else{
-            performSegue(withIdentifier: "showQuestion", sender: self)
-        }
-    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.questionAnswered += 1 // Increment Questions Answered
         
-        self.questionAnswered += 1
-        
+        // Logic for button text
         if self.questionList.count > self.questionAnswered {
             btnNext.setTitle("Next Question", for: .normal)
         } else {
             btnNext.setTitle("Finish", for: .normal)
         }
         
+        // Setting Question
         lblQuestion.text = self.question
         
+        // Logic for displaying results
         if(self.correctAnswer == self.lastSelectedAnswer){
             questionRight += 1
             lblResult.text = "Correct! Current Score: \(questionRight) / \(questionAnswered)"
@@ -58,6 +48,29 @@ class AnswerController: UIViewController {
     }
     
     
+    // Back Button Func
+    @IBAction func btnBackToMain(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromAnswer", sender: self)
+    }
+    
+    
+    // Swipe Right Func
+    @IBAction func swipeRight(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromAnswer", sender: self)
+    }
+    
+    
+    // Swipe Left Func
+    @IBAction func swipeLeft(_ sender: Any) {
+        if(self.questionList.count == self.questionAnswered){
+            performSegue(withIdentifier: "toFinish", sender: self)
+        }else{
+            performSegue(withIdentifier: "showQuestion", sender: self)
+        }
+    }
+    
+    
+    // Next Button Func
     @IBAction func nextView(_ sender: Any) {
         if(self.questionList.count == self.questionAnswered){
             performSegue(withIdentifier: "toFinish", sender: self)
@@ -66,6 +79,8 @@ class AnswerController: UIViewController {
         }
     }
     
+    
+    // Preparing data for next segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "toFinish"){
             let dest = segue.destination as! FinishedController

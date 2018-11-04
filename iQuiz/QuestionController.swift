@@ -9,32 +9,15 @@
 import UIKit
 
 class QuestionController: UIViewController {
-    
-    
-    @IBAction func swipeRight(_ sender: Any) {
-        performSegue(withIdentifier: "backToMainFromQuestion", sender: self)
-    }
-    
-    @IBAction func swipeLeft(_ sender: Any) {
-        if(lastSelectedAnswer == -1){
-            let alert = UIAlertController(title: "No Selection", message: "Please select an answer to continue.", preferredStyle: UIAlertController.Style.alert)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-            
-            self.present(alert, animated: true, completion: nil)
-        }else{
-            performSegue(withIdentifier: "showAnswer", sender: self)
-        }
-    }
-    
-    
-    
-    var fromTopic: Topic!
+
+    // Fields
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answer1: UIButton!
     @IBOutlet weak var answer2: UIButton!
     @IBOutlet weak var answer3: UIButton!
     @IBOutlet weak var answer4: UIButton!
     @IBOutlet weak var SubmitBTN: UIButton!
+    var fromTopic: Topic!
     var correctAnswer : Int = 0
     var lastSelectedAnswer: Int = -1
     var questionAnswered = 0;
@@ -50,6 +33,7 @@ class QuestionController: UIViewController {
         self.correctAnswer = toAsk.correctChoice
         self.question = toAsk.question
         
+        // Setting Screen Texts
         self.questionLabel.text = "\((toAsk.question)!)"
         self.answer1.setTitle((toAsk.choices[0]), for: .normal)
         self.answer2.setTitle((toAsk.choices[1]), for: .normal)
@@ -58,6 +42,7 @@ class QuestionController: UIViewController {
     }
     
     
+    // Submit Button Action
     @IBAction func actnSubmit(_ sender: Any) {
         if(lastSelectedAnswer == -1){
             let alert = UIAlertController(title: "No Selection", message: "Please select an answer to continue.", preferredStyle: UIAlertController.Style.alert)
@@ -68,8 +53,34 @@ class QuestionController: UIViewController {
             performSegue(withIdentifier: "showAnswer", sender: self)
         }
     }
-
     
+    
+    // Back Button Action
+    @IBAction func btnBack(_ sender: Any) {
+        performSegue(withIdentifier: "backToMainFromQuestion", sender: self)
+    }
+    
+    
+    // Swipe Right Actions
+    @IBAction func swipeRight(_ sender: Any) {
+        performSegue(withIdentifier: "backToMainFromQuestion", sender: self)
+    }
+    
+    
+    // Swipe Left actions
+    @IBAction func swipeLeft(_ sender: Any) {
+        if(lastSelectedAnswer == -1){
+            let alert = UIAlertController(title: "No Selection", message: "Please select an answer to continue.", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            
+            self.present(alert, animated: true, completion: nil)
+        }else{
+            performSegue(withIdentifier: "showAnswer", sender: self)
+        }
+    }
+    
+    
+    // Button 1
     @IBAction func actnAnswerOne(_ sender: Any) {
         self.lastSelectedAnswer = 0
         self.answer1.backgroundColor = UIColor.lightGray
@@ -78,7 +89,8 @@ class QuestionController: UIViewController {
         answer4.backgroundColor = UIColor.white
     }
     
-
+    
+    // Button 2
     @IBAction func actnAnswerTwo(_ sender: Any) {
         self.lastSelectedAnswer = 1
         self.answer2.backgroundColor = UIColor.lightGray
@@ -89,6 +101,7 @@ class QuestionController: UIViewController {
     }
 
     
+    // Button 3
     @IBAction func actnAnswerThree(_ sender: Any) {
         self.lastSelectedAnswer = 2
         self.answer3.backgroundColor = UIColor.lightGray
@@ -98,6 +111,7 @@ class QuestionController: UIViewController {
     }
     
     
+    // Button 4
     @IBAction func actnAnswerFour(_ sender: Any) {
         self.lastSelectedAnswer = 3
         self.answer4.backgroundColor = UIColor.lightGray
@@ -107,6 +121,7 @@ class QuestionController: UIViewController {
     }
     
     
+    // Preparing data for next segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "showAnswer"){
             let dest = segue.destination as! AnswerController

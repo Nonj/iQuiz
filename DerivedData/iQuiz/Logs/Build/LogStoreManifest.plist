@@ -6,35 +6,6 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>18AF2C2D-6856-439E-A185-D4EF7E43E963</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>18AF2C2D-6856-439E-A185-D4EF7E43E963.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>iQuiz project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>iQuiz</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Build iQuiz</string>
-			<key>timeStartedRecording</key>
-			<real>563055478.63854694</real>
-			<key>timeStoppedRecording</key>
-			<real>563055482.17734003</real>
-			<key>title</key>
-			<string>Build iQuiz</string>
-			<key>uniqueIdentifier</key>
-			<string>18AF2C2D-6856-439E-A185-D4EF7E43E963</string>
-		</dict>
 		<key>426C5ADF-E7B0-4186-BDB9-CA186EF3B780</key>
 		<dict>
 			<key>className</key>
@@ -64,7 +35,7 @@
 			<key>uniqueIdentifier</key>
 			<string>426C5ADF-E7B0-4186-BDB9-CA186EF3B780</string>
 		</dict>
-		<key>BDF4D548-B147-4D33-B90E-AA6326F2E384</key>
+		<key>74B806D9-7865-4B97-8733-4E933369B337</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -73,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>BDF4D548-B147-4D33-B90E-AA6326F2E384.xcactivitylog</string>
+			<string>74B806D9-7865-4B97-8733-4E933369B337.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -85,15 +56,15 @@
 			<key>signature</key>
 			<string>Build iQuiz</string>
 			<key>timeStartedRecording</key>
-			<real>563055379.78903103</real>
+			<real>563056404.03181696</real>
 			<key>timeStoppedRecording</key>
-			<real>563055387.46626997</real>
+			<real>563056409.59001398</real>
 			<key>title</key>
 			<string>Build iQuiz</string>
 			<key>uniqueIdentifier</key>
-			<string>BDF4D548-B147-4D33-B90E-AA6326F2E384</string>
+			<string>74B806D9-7865-4B97-8733-4E933369B337</string>
 		</dict>
-		<key>D770C17E-CD19-440D-832C-9077B1834130</key>
+		<key>ABDE103F-2334-4582-B954-E9375780C602</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -102,7 +73,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>D770C17E-CD19-440D-832C-9077B1834130.xcactivitylog</string>
+			<string>ABDE103F-2334-4582-B954-E9375780C602.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -114,42 +85,13 @@
 			<key>signature</key>
 			<string>Clean iQuiz</string>
 			<key>timeStartedRecording</key>
-			<real>563055589.60097897</real>
+			<real>563056691.29881501</real>
 			<key>timeStoppedRecording</key>
-			<real>563055589.80651498</real>
+			<real>563056691.38400495</real>
 			<key>title</key>
 			<string>Clean iQuiz</string>
 			<key>uniqueIdentifier</key>
-			<string>D770C17E-CD19-440D-832C-9077B1834130</string>
-		</dict>
-		<key>E56731D1-26C6-4E9F-ADE6-059C4E6B98D3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E56731D1-26C6-4E9F-ADE6-059C4E6B98D3.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>iQuiz project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>iQuiz</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Build iQuiz</string>
-			<key>timeStartedRecording</key>
-			<real>563054279.82966805</real>
-			<key>timeStoppedRecording</key>
-			<real>563054288.40928495</real>
-			<key>title</key>
-			<string>Build iQuiz</string>
-			<key>uniqueIdentifier</key>
-			<string>E56731D1-26C6-4E9F-ADE6-059C4E6B98D3</string>
+			<string>ABDE103F-2334-4582-B954-E9375780C602</string>
 		</dict>
 	</dict>
 </dict>

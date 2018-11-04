@@ -10,26 +10,15 @@ import UIKit
 
 class FinishedController: UIViewController {
 
+    // Field Variables
     @IBOutlet weak var lblFinishMessage: UILabel!
-    
     var questionRight: Int = 0
     var questionAnswered: Int = 0
     var percentage: Double = 0.0
-    
-    @IBAction func finishPress(_ sender: Any) {
-        performSegue(withIdentifier: "toMainFromFinish", sender: self)
-    }
-    @IBAction func swipeRight(_ sender: Any) {
-        performSegue(withIdentifier: "toMainFromFinish", sender: self)
-    }
-    
-    @IBAction func swipeLeft(_ sender: Any) {
-        performSegue(withIdentifier: "toMainFromFinish", sender: self)
-    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.percentage = (Double(questionRight) / Double(questionAnswered)) * 100.0
         
         if self.percentage == 0 {
@@ -41,6 +30,24 @@ class FinishedController: UIViewController {
         } else {
             lblFinishMessage.text = "You Rock! Your score was: \(self.questionRight) / \(self.questionAnswered)"
         }
+    }
+    
+    
+    // Finish button pressed
+    @IBAction func finishPress(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromFinish", sender: self)
+    }
+    
+    
+    // Swipe right functionality
+    @IBAction func swipeRight(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromFinish", sender: self)
+    }
+    
+    
+    // Swipe left functinality
+    @IBAction func swipeLeft(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromFinish", sender: self)
     }
 
 }

@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>089324B0-903C-47ED-9A78-78A5A207D5F3</key>
+		<key>BA4C1C8B-53F4-485A-93D5-3015D08525E6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>089324B0-903C-47ED-9A78-78A5A207D5F3.xcactivitylog</string>
+			<string>BA4C1C8B-53F4-485A-93D5-3015D08525E6.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,13 @@
 			<key>signature</key>
 			<string>Debug iQuiz</string>
 			<key>timeStartedRecording</key>
-			<real>563054288.34418905</real>
+			<real>563056409.53129494</real>
 			<key>timeStoppedRecording</key>
-			<real>563054344.167521</real>
+			<real>563056685.30872905</real>
 			<key>title</key>
 			<string>Debug iQuiz</string>
 			<key>uniqueIdentifier</key>
-			<string>089324B0-903C-47ED-9A78-78A5A207D5F3</string>
+			<string>BA4C1C8B-53F4-485A-93D5-3015D08525E6</string>
 		</dict>
 		<key>E08A4DB6-55BF-4AE1-AB83-3AE0DBBA0649</key>
 		<dict>
@@ -63,35 +63,6 @@
 			<string>Debug iQuiz</string>
 			<key>uniqueIdentifier</key>
 			<string>E08A4DB6-55BF-4AE1-AB83-3AE0DBBA0649</string>
-		</dict>
-		<key>ED8CF2EC-581A-4EAF-9A15-94B686A4F150</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>ED8CF2EC-581A-4EAF-9A15-94B686A4F150.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>iQuiz project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>iQuiz</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>0</integer>
-			<key>signature</key>
-			<string>Debug iQuiz</string>
-			<key>timeStartedRecording</key>
-			<real>563055387.37103498</real>
-			<key>timeStoppedRecording</key>
-			<real>563055478.21447897</real>
-			<key>title</key>
-			<string>Debug iQuiz</string>
-			<key>uniqueIdentifier</key>
-			<string>ED8CF2EC-581A-4EAF-9A15-94B686A4F150</string>
 		</dict>
 	</dict>
 </dict>

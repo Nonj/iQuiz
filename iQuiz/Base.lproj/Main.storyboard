@@ -121,7 +121,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6O3-O2-dqy">
-                                <rect key="frame" x="0.0" y="430" width="375" height="200"/>
+                                <rect key="frame" x="0.0" y="392" width="375" height="238"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9T-m0-2Lb" userLabel="Answer1">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="33"/>
@@ -168,15 +168,26 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3x-LL-B27" userLabel="SubmitButton">
-                                        <rect key="frame" x="0.0" y="164" width="375" height="36"/>
+                                        <rect key="frame" x="0.0" y="164" width="375" height="33"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <state key="normal" title="Submit">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="actnSubmit:" destination="Ese-4Y-ND0" eventType="touchUpInside" id="pZi-5d-byC"/>
                                             <segue destination="thk-QH-ib2" kind="show" identifier="showAnswer" id="jFi-V8-7U0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbe-S9-gjQ">
+                                        <rect key="frame" x="0.0" y="205" width="375" height="33"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <state key="normal" title="Back To Main">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnBack:" destination="Ese-4Y-ND0" eventType="touchUpInside" id="wuP-Jg-5Qo"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -316,12 +327,26 @@
                                     <action selector="nextView:" destination="thk-QH-ib2" eventType="touchUpInside" id="2oA-OA-pbw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJm-wd-qwl">
+                                <rect key="frame" x="8" y="583" width="359" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <state key="normal" title="Back To Main">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnBackToMain:" destination="thk-QH-ib2" eventType="touchUpInside" id="XDL-9S-i3J"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.17390137180000001" green="0.66666668650000005" blue="0.57742687690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="J68-XT-Nv7" firstAttribute="top" secondItem="DJm-wd-qwl" secondAttribute="bottom" constant="8" id="95K-mv-gP9"/>
                             <constraint firstItem="J68-XT-Nv7" firstAttribute="leading" secondItem="Olq-Ki-aA1" secondAttribute="leading" constant="8" id="B0Z-I9-oDP"/>
                             <constraint firstItem="Olq-Ki-aA1" firstAttribute="trailing" secondItem="bJX-Ln-E7N" secondAttribute="trailing" id="EDt-gK-La9"/>
+                            <constraint firstItem="Olq-Ki-aA1" firstAttribute="trailing" secondItem="DJm-wd-qwl" secondAttribute="trailing" constant="8" id="GWT-HP-liL"/>
+                            <constraint firstItem="DJm-wd-qwl" firstAttribute="leading" secondItem="Olq-Ki-aA1" secondAttribute="leading" constant="8" id="Npu-C2-cId"/>
                             <constraint firstItem="bJX-Ln-E7N" firstAttribute="top" secondItem="Olq-Ki-aA1" secondAttribute="top" id="Uue-Ze-Iox"/>
                             <constraint firstItem="xmA-Wy-0wh" firstAttribute="centerY" secondItem="y3H-g9-gE4" secondAttribute="centerY" id="Wk5-ao-4N9"/>
                             <constraint firstItem="xmA-Wy-0wh" firstAttribute="centerX" secondItem="y3H-g9-gE4" secondAttribute="centerX" id="ZCM-dZ-381"/>
@@ -360,7 +385,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="jFi-V8-7U0"/>
         <segue reference="I43-Fi-wFk"/>
-        <segue reference="Mc8-MJ-8fV"/>
+        <segue reference="m4g-Pn-Vxo"/>
     </inferredMetricsTieBreakers>
 </document>
