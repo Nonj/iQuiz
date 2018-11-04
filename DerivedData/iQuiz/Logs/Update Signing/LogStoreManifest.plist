@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>04DD71D7-84EF-4116-A940-184F867EDF31</key>
+		<key>72A5E3BB-DB7F-4958-90D8-5500B251345D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,21 +15,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>04DD71D7-84EF-4116-A940-184F867EDF31.xcactivitylog</string>
+			<string>72A5E3BB-DB7F-4958-90D8-5500B251345D.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>E</string>
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>563011596.36365902</real>
+			<real>563054476.03365195</real>
 			<key>timeStoppedRecording</key>
-			<real>563011598.13330495</real>
+			<real>563054477.32184505</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>04DD71D7-84EF-4116-A940-184F867EDF31</string>
+			<string>72A5E3BB-DB7F-4958-90D8-5500B251345D</string>
 		</dict>
-		<key>74FBAF14-1480-4427-B875-1CE722818863</key>
+		<key>E8079FFF-2A25-4799-BE93-06141CBEC8EA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -38,19 +38,42 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>74FBAF14-1480-4427-B875-1CE722818863.xcactivitylog</string>
+			<string>E8079FFF-2A25-4799-BE93-06141CBEC8EA.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>E</string>
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>563006205.31634498</real>
+			<real>563053825.06004405</real>
 			<key>timeStoppedRecording</key>
-			<real>563006215.72694695</real>
+			<real>563053827.01948905</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>74FBAF14-1480-4427-B875-1CE722818863</string>
+			<string>E8079FFF-2A25-4799-BE93-06141CBEC8EA</string>
+		</dict>
+		<key>EE847158-607B-466E-AC2D-927E05F4E43E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
+			<key>fileName</key>
+			<string>EE847158-607B-466E-AC2D-927E05F4E43E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Update Signing</string>
+			<key>timeStartedRecording</key>
+			<real>563054477.32220995</real>
+			<key>timeStoppedRecording</key>
+			<real>563054477.67945397</real>
+			<key>title</key>
+			<string>Update Signing</string>
+			<key>uniqueIdentifier</key>
+			<string>EE847158-607B-466E-AC2D-927E05F4E43E</string>
 		</dict>
 	</dict>
 </dict>

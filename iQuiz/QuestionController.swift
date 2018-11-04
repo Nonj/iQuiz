@@ -10,7 +10,24 @@ import UIKit
 
 class QuestionController: UIViewController {
     
-
+    
+    @IBAction func swipeRight(_ sender: Any) {
+        performSegue(withIdentifier: "backToMainFromQuestion", sender: self)
+    }
+    
+    @IBAction func swipeLeft(_ sender: Any) {
+        if(lastSelectedAnswer == -1){
+            let alert = UIAlertController(title: "No Selection", message: "Please select an answer to continue.", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            
+            self.present(alert, animated: true, completion: nil)
+        }else{
+            performSegue(withIdentifier: "showAnswer", sender: self)
+        }
+    }
+    
+    
+    
     var fromTopic: Topic!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answer1: UIButton!

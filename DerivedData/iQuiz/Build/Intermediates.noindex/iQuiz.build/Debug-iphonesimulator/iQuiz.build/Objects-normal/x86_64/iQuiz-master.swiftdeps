@@ -1,12 +1,12 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "cd984ac1bfadf6a00a19d4613216064f"
-build_time: [1541359784, 944197000]
+build_time: [1541362678, 820800000]
 inputs:
-  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/QuestionController.swift": [1541359248, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/QuestionController.swift": [1541362579, 0]
   "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/Question.swift": [1541307431, 0]
   "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/ViewController.swift": [1541358890, 0]
   "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/Topic.swift": [1541304575, 0]
-  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/AnswerController.swift": [1541359784, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/AnswerController.swift": [1541362579, 0]
   "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/TopicCell.swift": [1540711193, 0]
-  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/FinishedController.swift": [1541359670, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/FinishedController.swift": [1541362678, 0]
   "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/AppDelegate.swift": [1540602870, 0]

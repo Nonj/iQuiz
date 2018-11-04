@@ -18,6 +18,8 @@ provides-dynamic-lookup:
 - "answer4"
 - "prepare"
 - "questionLabel"
+- "swipeLeft"
+- "swipeRight"
 - "viewDidLoad"
 depends-top-level:
 - !private "=="
@@ -42,6 +44,7 @@ depends-top-level:
 - "UIViewController"
 depends-member:
 - !private ["5iQuiz16AnswerControllerC", "correctAnswer"]
+- !private ["5iQuiz16AnswerControllerC", "fromTopic"]
 - !private ["5iQuiz16AnswerControllerC", "lastSelectedAnswer"]
 - !private ["5iQuiz16AnswerControllerC", "question"]
 - !private ["5iQuiz16AnswerControllerC", "questionAnswered"]
@@ -375,6 +378,8 @@ depends-member:
 - ["So8NSObjectC", "questionList"]
 - ["So8NSObjectC", "questionRight"]
 - !private ["So8NSObjectC", "setTitle"]
+- ["So8NSObjectC", "swipeLeft"]
+- ["So8NSObjectC", "swipeRight"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectC", "white"]
@@ -452,6 +457,8 @@ depends-member:
 - ["5iQuiz18QuestionControllerC", "questionLabel"]
 - ["5iQuiz18QuestionControllerC", "questionList"]
 - ["5iQuiz18QuestionControllerC", "questionRight"]
+- ["5iQuiz18QuestionControllerC", "swipeLeft"]
+- ["5iQuiz18QuestionControllerC", "swipeRight"]
 - ["5iQuiz18QuestionControllerC", "viewDidLoad"]
 - !private ["Sk", "subscript"]
 - ["Sm", "init"]
@@ -648,6 +655,8 @@ depends-member:
 - ["So11UIResponderC", "questionList"]
 - ["So11UIResponderC", "questionRight"]
 - !private ["So11UIResponderC", "setTitle"]
+- ["So11UIResponderC", "swipeLeft"]
+- ["So11UIResponderC", "swipeRight"]
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "Style"]
@@ -798,6 +807,8 @@ depends-member:
 - ["So16UIViewControllerC", "questionLabel"]
 - ["So16UIViewControllerC", "questionList"]
 - ["So16UIViewControllerC", "questionRight"]
+- ["So16UIViewControllerC", "swipeLeft"]
+- ["So16UIViewControllerC", "swipeRight"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitle"]
@@ -975,4 +986,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "eeda0079cd43ed53222d009f73e29c8e"
+interface-hash: "863e449eee0f886a79308c78c0a255af"

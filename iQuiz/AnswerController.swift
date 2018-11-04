@@ -23,6 +23,18 @@ class AnswerController: UIViewController {
     var question: String = ""
     var fromTopic: AnyObject = NSNull.self
     
+    @IBAction func swipeRight(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromAnswer", sender: self)
+    }
+    
+    @IBAction func swipeLeft(_ sender: Any) {
+        if(self.questionList.count == self.questionAnswered){
+            performSegue(withIdentifier: "toFinish", sender: self)
+        }else{
+            performSegue(withIdentifier: "showQuestion", sender: self)
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

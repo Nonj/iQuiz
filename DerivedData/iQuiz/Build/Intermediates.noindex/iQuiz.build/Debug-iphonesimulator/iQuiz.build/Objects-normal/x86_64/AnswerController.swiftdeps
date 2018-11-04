@@ -11,6 +11,8 @@ provides-dynamic-lookup:
 - "lblResult"
 - "nextView"
 - "prepare"
+- "swipeLeft"
+- "swipeRight"
 - "viewDidLoad"
 depends-top-level:
 - !private "+="
@@ -60,6 +62,8 @@ depends-member:
 - ["5iQuiz16AnswerControllerC", "questionAnswered"]
 - ["5iQuiz16AnswerControllerC", "questionList"]
 - ["5iQuiz16AnswerControllerC", "questionRight"]
+- ["5iQuiz16AnswerControllerC", "swipeLeft"]
+- ["5iQuiz16AnswerControllerC", "swipeRight"]
 - ["5iQuiz16AnswerControllerC", "viewDidLoad"]
 - !private ["Sa", "count"]
 - !private ["s13ArrayProtocolP", "count"]
@@ -287,6 +291,8 @@ depends-member:
 - ["So8NSObjectC", "questionList"]
 - ["So8NSObjectC", "questionRight"]
 - !private ["So8NSObjectC", "setTitle"]
+- ["So8NSObjectC", "swipeLeft"]
+- ["So8NSObjectC", "swipeRight"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", "NSNull"]
@@ -448,6 +454,8 @@ depends-member:
 - ["So11UIResponderC", "questionList"]
 - ["So11UIResponderC", "questionRight"]
 - !private ["So11UIResponderC", "setTitle"]
+- ["So11UIResponderC", "swipeLeft"]
+- ["So11UIResponderC", "swipeRight"]
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "NSNull"]
@@ -552,6 +560,8 @@ depends-member:
 - ["So16UIViewControllerC", "questionAnswered"]
 - ["So16UIViewControllerC", "questionList"]
 - ["So16UIViewControllerC", "questionRight"]
+- ["So16UIViewControllerC", "swipeLeft"]
+- ["So16UIViewControllerC", "swipeRight"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitle"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
@@ -703,4 +713,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5f8b0279749b3de1a50c6e3bb280a83b"
+interface-hash: "01a6d655238939076889fd9dbdcf3e79"

@@ -16,6 +16,17 @@ class FinishedController: UIViewController {
     var questionAnswered: Int = 0
     var percentage: Double = 0.0
     
+    @IBAction func finishPress(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromFinish", sender: self)
+    }
+    @IBAction func swipeRight(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromFinish", sender: self)
+    }
+    
+    @IBAction func swipeLeft(_ sender: Any) {
+        performSegue(withIdentifier: "toMainFromFinish", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

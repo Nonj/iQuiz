@@ -193,6 +193,8 @@ SWIFT_CLASS("_TtC5iQuiz16AnswerController")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified btnNext;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblResult;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblQuestion;
+- (IBAction)swipeRight:(id _Nonnull)sender;
+- (IBAction)swipeLeft:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (IBAction)nextView:(id _Nonnull)sender;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
@@ -219,6 +221,9 @@ SWIFT_CLASS("_TtC5iQuiz11AppDelegate")
 SWIFT_CLASS("_TtC5iQuiz18FinishedController")
 @interface FinishedController : UIViewController
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblFinishMessage;
+- (IBAction)finishPress:(id _Nonnull)sender;
+- (IBAction)swipeRight:(id _Nonnull)sender;
+- (IBAction)swipeLeft:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -227,6 +232,8 @@ SWIFT_CLASS("_TtC5iQuiz18FinishedController")
 
 SWIFT_CLASS("_TtC5iQuiz18QuestionController")
 @interface QuestionController : UIViewController
+- (IBAction)swipeRight:(id _Nonnull)sender;
+- (IBAction)swipeLeft:(id _Nonnull)sender;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified questionLabel;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified answer1;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified answer2;
