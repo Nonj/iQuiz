@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>C4CEC303-5890-41FA-9D8C-7E0C5971FCFF</key>
+		<key>04F98AD0-A26E-415D-BBAD-932698EA7B62</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C4CEC303-5890-41FA-9D8C-7E0C5971FCFF.xcactivitylog</string>
+			<string>04F98AD0-A26E-415D-BBAD-932698EA7B62.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Build iQuiz</string>
 			<key>timeStartedRecording</key>
-			<real>562445627.28499103</real>
+			<real>563052788.46730697</real>
 			<key>timeStoppedRecording</key>
-			<real>562445627.86854196</real>
+			<real>563052788.67014897</real>
 			<key>title</key>
 			<string>Build iQuiz</string>
 			<key>uniqueIdentifier</key>
-			<string>C4CEC303-5890-41FA-9D8C-7E0C5971FCFF</string>
+			<string>04F98AD0-A26E-415D-BBAD-932698EA7B62</string>
 		</dict>
-		<key>F603ABBF-2ABA-4FCA-9078-15ABF737F76B</key>
+		<key>0AA39CA1-E602-471D-8D52-FF688200B0A4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F603ABBF-2ABA-4FCA-9078-15ABF737F76B.xcactivitylog</string>
+			<string>0AA39CA1-E602-471D-8D52-FF688200B0A4.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +56,593 @@
 			<key>signature</key>
 			<string>Build iQuiz</string>
 			<key>timeStartedRecording</key>
-			<real>562464753.59231305</real>
+			<real>563052584.85491705</real>
 			<key>timeStoppedRecording</key>
-			<real>562464759.05042899</real>
+			<real>563052586.93873799</real>
 			<key>title</key>
 			<string>Build iQuiz</string>
 			<key>uniqueIdentifier</key>
-			<string>F603ABBF-2ABA-4FCA-9078-15ABF737F76B</string>
+			<string>0AA39CA1-E602-471D-8D52-FF688200B0A4</string>
+		</dict>
+		<key>0DE108EB-5516-4616-89DC-9BD8D3D3AB95</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0DE108EB-5516-4616-89DC-9BD8D3D3AB95.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052962.35580301</real>
+			<key>timeStoppedRecording</key>
+			<real>563052964.28622794</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>0DE108EB-5516-4616-89DC-9BD8D3D3AB95</string>
+		</dict>
+		<key>0DFE6C46-0DBE-4DB9-9CF8-CA74825AFD6A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0DFE6C46-0DBE-4DB9-9CF8-CA74825AFD6A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052048.27429497</real>
+			<key>timeStoppedRecording</key>
+			<real>563052051.53641701</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>0DFE6C46-0DBE-4DB9-9CF8-CA74825AFD6A</string>
+		</dict>
+		<key>157B2027-BDA8-4C05-98E6-CE3DC3052270</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>157B2027-BDA8-4C05-98E6-CE3DC3052270.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563050868.66578197</real>
+			<key>timeStoppedRecording</key>
+			<real>563050877.83318198</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>157B2027-BDA8-4C05-98E6-CE3DC3052270</string>
+		</dict>
+		<key>2E53F20A-4216-47CA-9A2A-EF5AA935CDE1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2E53F20A-4216-47CA-9A2A-EF5AA935CDE1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Clean iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563006190.28384495</real>
+			<key>timeStoppedRecording</key>
+			<real>563006190.34435999</real>
+			<key>title</key>
+			<string>Clean iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>2E53F20A-4216-47CA-9A2A-EF5AA935CDE1</string>
+		</dict>
+		<key>342CD727-3EC6-4529-B3D1-9F3E90F4D04B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>342CD727-3EC6-4529-B3D1-9F3E90F4D04B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563051940.44888198</real>
+			<key>timeStoppedRecording</key>
+			<real>563051941.53315997</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>342CD727-3EC6-4529-B3D1-9F3E90F4D04B</string>
+		</dict>
+		<key>4396FBC6-A7CB-426D-9A2C-68080CA0AA1F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4396FBC6-A7CB-426D-9A2C-68080CA0AA1F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052660.67686105</real>
+			<key>timeStoppedRecording</key>
+			<real>563052660.78029597</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>4396FBC6-A7CB-426D-9A2C-68080CA0AA1F</string>
+		</dict>
+		<key>4C3D40BD-DAD5-4026-84E5-2290C28CA8B7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4C3D40BD-DAD5-4026-84E5-2290C28CA8B7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563053041.35462296</real>
+			<key>timeStoppedRecording</key>
+			<real>563053043.550488</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>4C3D40BD-DAD5-4026-84E5-2290C28CA8B7</string>
+		</dict>
+		<key>5CE800E0-01DF-4337-BC79-755694F5F477</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5CE800E0-01DF-4337-BC79-755694F5F477.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563053130.79998505</real>
+			<key>timeStoppedRecording</key>
+			<real>563053131.01991498</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>5CE800E0-01DF-4337-BC79-755694F5F477</string>
+		</dict>
+		<key>6CEE40C3-D4AD-4DE2-B408-484902F0FBAD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6CEE40C3-D4AD-4DE2-B408-484902F0FBAD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052891.77090502</real>
+			<key>timeStoppedRecording</key>
+			<real>563052895.22636294</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>6CEE40C3-D4AD-4DE2-B408-484902F0FBAD</string>
+		</dict>
+		<key>7477B21B-7D91-409E-8A2D-A7EC299A2115</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7477B21B-7D91-409E-8A2D-A7EC299A2115.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563012128.09654605</real>
+			<key>timeStoppedRecording</key>
+			<real>563012133.10582101</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>7477B21B-7D91-409E-8A2D-A7EC299A2115</string>
+		</dict>
+		<key>A49F92B8-BC8E-48A8-B213-55062AC07E0B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A49F92B8-BC8E-48A8-B213-55062AC07E0B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563051690.554263</real>
+			<key>timeStoppedRecording</key>
+			<real>563051698.02113497</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>A49F92B8-BC8E-48A8-B213-55062AC07E0B</string>
+		</dict>
+		<key>A8229620-0329-404D-A8B6-626379239B4D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A8229620-0329-404D-A8B6-626379239B4D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052289.76306701</real>
+			<key>timeStoppedRecording</key>
+			<real>563052292.01329005</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>A8229620-0329-404D-A8B6-626379239B4D</string>
+		</dict>
+		<key>A8A52478-3FCD-4EB1-AB2C-0461267D21F3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A8A52478-3FCD-4EB1-AB2C-0461267D21F3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052217.88933396</real>
+			<key>timeStoppedRecording</key>
+			<real>563052220.11241806</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>A8A52478-3FCD-4EB1-AB2C-0461267D21F3</string>
+		</dict>
+		<key>BFA823BA-058B-4E10-80B0-6BB1B5523664</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BFA823BA-058B-4E10-80B0-6BB1B5523664.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052470.77305698</real>
+			<key>timeStoppedRecording</key>
+			<real>563052480.87003601</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>BFA823BA-058B-4E10-80B0-6BB1B5523664</string>
+		</dict>
+		<key>CEC9C2D1-6ECC-45DB-A9F0-DE49C3AE6385</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CEC9C2D1-6ECC-45DB-A9F0-DE49C3AE6385.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052138.74983597</real>
+			<key>timeStoppedRecording</key>
+			<real>563052144.21469796</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>CEC9C2D1-6ECC-45DB-A9F0-DE49C3AE6385</string>
+		</dict>
+		<key>D70D1308-8415-4FEA-9053-BAD7D99F9FB3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D70D1308-8415-4FEA-9053-BAD7D99F9FB3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563013367.69741499</real>
+			<key>timeStoppedRecording</key>
+			<real>563013377.24152505</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>D70D1308-8415-4FEA-9053-BAD7D99F9FB3</string>
+		</dict>
+		<key>DB92E152-8DDA-438D-A23C-4E2979CD2530</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DB92E152-8DDA-438D-A23C-4E2979CD2530.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563012119.27561295</real>
+			<key>timeStoppedRecording</key>
+			<real>563012120.56083405</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>DB92E152-8DDA-438D-A23C-4E2979CD2530</string>
+		</dict>
+		<key>DF3F1F09-31B6-44AA-8715-DEB0DBE3439B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DF3F1F09-31B6-44AA-8715-DEB0DBE3439B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563052769.91529799</real>
+			<key>timeStoppedRecording</key>
+			<real>563052772.96341002</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>DF3F1F09-31B6-44AA-8715-DEB0DBE3439B</string>
+		</dict>
+		<key>F1029A78-38EB-4A91-99D9-2FB1A3DE8E45</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F1029A78-38EB-4A91-99D9-2FB1A3DE8E45.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563053205.76767397</real>
+			<key>timeStoppedRecording</key>
+			<real>563053211.43022001</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>F1029A78-38EB-4A91-99D9-2FB1A3DE8E45</string>
+		</dict>
+		<key>F3F07187-A324-46A4-92C0-68C21494D6CB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F3F07187-A324-46A4-92C0-68C21494D6CB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563012629.785308</real>
+			<key>timeStoppedRecording</key>
+			<real>563012632.95619798</real>
+			<key>title</key>
+			<string>Build iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>F3F07187-A324-46A4-92C0-68C21494D6CB</string>
 		</dict>
 	</dict>
 </dict>
