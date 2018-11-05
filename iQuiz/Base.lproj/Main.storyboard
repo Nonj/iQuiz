@@ -310,8 +310,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmA-Wy-0wh">
-                                <rect key="frame" x="129.5" y="321.5" width="116" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmA-Wy-0wh">
+                                <rect key="frame" x="129.5" y="283.5" width="116" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0Zi-Gz-I5x"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -342,7 +345,9 @@
                         <color key="backgroundColor" red="0.17390137180000001" green="0.66666668650000005" blue="0.57742687690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="Olq-Ki-aA1" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xmA-Wy-0wh" secondAttribute="trailing" id="7q4-dw-irm"/>
                             <constraint firstItem="J68-XT-Nv7" firstAttribute="top" secondItem="DJm-wd-qwl" secondAttribute="bottom" constant="8" id="95K-mv-gP9"/>
+                            <constraint firstItem="xmA-Wy-0wh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Olq-Ki-aA1" secondAttribute="leading" id="A6t-kH-k8f"/>
                             <constraint firstItem="J68-XT-Nv7" firstAttribute="leading" secondItem="Olq-Ki-aA1" secondAttribute="leading" constant="8" id="B0Z-I9-oDP"/>
                             <constraint firstItem="Olq-Ki-aA1" firstAttribute="trailing" secondItem="bJX-Ln-E7N" secondAttribute="trailing" id="EDt-gK-La9"/>
                             <constraint firstItem="Olq-Ki-aA1" firstAttribute="trailing" secondItem="DJm-wd-qwl" secondAttribute="trailing" constant="8" id="GWT-HP-liL"/>
@@ -385,8 +390,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jFi-V8-7U0"/>
         <segue reference="I43-Fi-wFk"/>
-        <segue reference="m4g-Pn-Vxo"/>
+        <segue reference="Mc8-MJ-8fV"/>
     </inferredMetricsTieBreakers>
 </document>

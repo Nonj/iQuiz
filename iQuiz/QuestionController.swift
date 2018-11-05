@@ -19,6 +19,7 @@ class QuestionController: UIViewController {
     @IBOutlet weak var SubmitBTN: UIButton!
     var fromTopic: Topic!
     var correctAnswer : Int = 0
+    var correctAnswerString = ""
     var lastSelectedAnswer: Int = -1
     var questionAnswered = 0;
     var questionRight = 0;
@@ -32,6 +33,7 @@ class QuestionController: UIViewController {
         let toAsk : Question = self.questionList[self.questionAnswered]
         self.correctAnswer = toAsk.correctChoice
         self.question = toAsk.question
+        self.correctAnswerString = toAsk.choices[toAsk.correctChoice]
         
         // Setting Screen Texts
         self.questionLabel.text = "\((toAsk.question)!)"
@@ -132,6 +134,7 @@ class QuestionController: UIViewController {
             dest.questionList = self.questionList
             dest.question = self.question
             dest.fromTopic = self.fromTopic
+            dest.correctAnswerString = self.correctAnswerString
         }
     }
 }

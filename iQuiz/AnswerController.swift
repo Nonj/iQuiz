@@ -19,6 +19,7 @@ class AnswerController: UIViewController {
     var questionAnswered = 0
     var questionRight = 0
     var correctAnswer = 0
+    var correctAnswerString = ""
     var lastSelectedAnswer: Int = -1
     var questionList: [Question] = []
     var question: String = ""
@@ -41,9 +42,9 @@ class AnswerController: UIViewController {
         // Logic for displaying results
         if(self.correctAnswer == self.lastSelectedAnswer){
             questionRight += 1
-            lblResult.text = "Correct! Current Score: \(questionRight) / \(questionAnswered)"
+            lblResult.text = "Correct! The answer was \(self.correctAnswerString). Current Score: \(self.questionRight) / \(questionAnswered)"
         }else{
-            lblResult.text = "Wrong, Current Score: \(questionRight) / \(questionAnswered)"
+            lblResult.text = "Wrong! The answer was \(self.correctAnswerString). Current Score: \(self.questionRight) / \(self.questionAnswered)"
         }
     }
     
