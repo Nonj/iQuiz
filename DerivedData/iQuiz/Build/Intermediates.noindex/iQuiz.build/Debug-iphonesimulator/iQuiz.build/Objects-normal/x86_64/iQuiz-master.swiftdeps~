@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "6f5209170b3b1fa80962fea5b91d47e9"
+build_time: [1542177444, 50529000]
+inputs:
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/Reachability.swift": [1542177443, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/FinishedViewController.swift": [1542177443, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/CustomTableViewCell.swift": [1542177443, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/ViewController.swift": [1542177443, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/AnswerViewController.swift": [1542177443, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/QuestionViewController.swift": [1542177443, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/iQuiz/iQuiz/AppDelegate.swift": [1542177443, 0]
