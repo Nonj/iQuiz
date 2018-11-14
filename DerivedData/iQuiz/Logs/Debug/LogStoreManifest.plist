@@ -93,6 +93,35 @@
 			<key>uniqueIdentifier</key>
 			<string>197BE4B3-BE47-4999-B9B8-403EF0ACC21F</string>
 		</dict>
+		<key>28952423-3825-4263-BAF1-E6D7438B6E64</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>28952423-3825-4263-BAF1-E6D7438B6E64.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>iQuiz project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>iQuiz</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug iQuiz</string>
+			<key>timeStartedRecording</key>
+			<real>563872618.052459</real>
+			<key>timeStoppedRecording</key>
+			<real>563872703.028108</real>
+			<key>title</key>
+			<string>Debug iQuiz</string>
+			<key>uniqueIdentifier</key>
+			<string>28952423-3825-4263-BAF1-E6D7438B6E64</string>
+		</dict>
 		<key>3F5F43CC-A109-4750-B107-941E2CB143DF</key>
 		<dict>
 			<key>className</key>

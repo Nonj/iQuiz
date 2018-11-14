@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>0F5B34B2-905D-49DF-BFCC-4B3CB8AD2260</key>
+		<key>8F57B11C-D73A-4C22-943E-00BA14AB9296</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,19 +15,19 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>0F5B34B2-905D-49DF-BFCC-4B3CB8AD2260.xcactivitylog</string>
+			<string>8F57B11C-D73A-4C22-943E-00BA14AB9296.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>iQuiz-azevtfrrswceevctlkybcrbiancc</string>
 			<key>timeStartedRecording</key>
-			<real>563872508.03925204</real>
+			<real>563872616.96363795</real>
 			<key>timeStoppedRecording</key>
-			<real>563872510.911515</real>
+			<real>563872618.04472601</real>
 			<key>title</key>
 			<string>Build target iQuiz</string>
 			<key>uniqueIdentifier</key>
-			<string>0F5B34B2-905D-49DF-BFCC-4B3CB8AD2260</string>
+			<string>8F57B11C-D73A-4C22-943E-00BA14AB9296</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
