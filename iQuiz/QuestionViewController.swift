@@ -27,7 +27,7 @@ class QuestionViewController: UIViewController {
     
     @IBAction func answerOneSelected(_ sender: UIButton) {
         lastSelectedAnswer = 0
-        sender.backgroundColor = UIColor.lightGray
+        sender.backgroundColor = UIColor.cyan
         btnAnswer2.backgroundColor = UIColor.white
         btnAnswer3.backgroundColor = UIColor.white
         btnAnswer4.backgroundColor = UIColor.white
@@ -35,7 +35,7 @@ class QuestionViewController: UIViewController {
     
     @IBAction func answerTwoSelected(_ sender: UIButton) {
         lastSelectedAnswer = 1
-        sender.backgroundColor = UIColor.lightGray
+        sender.backgroundColor = UIColor.cyan
         btnAnswer1.backgroundColor = UIColor.white
         btnAnswer3.backgroundColor = UIColor.white
         btnAnswer4.backgroundColor = UIColor.white
@@ -43,7 +43,7 @@ class QuestionViewController: UIViewController {
     
     @IBAction func answerThreeSelected(_ sender: UIButton) {
         lastSelectedAnswer = 2
-        sender.backgroundColor = UIColor.lightGray
+        sender.backgroundColor = UIColor.cyan
         btnAnswer1.backgroundColor = UIColor.white
         btnAnswer2.backgroundColor = UIColor.white
         btnAnswer4.backgroundColor = UIColor.white
@@ -51,7 +51,7 @@ class QuestionViewController: UIViewController {
     
     @IBAction func answerFourSelected(_ sender: UIButton) {
         lastSelectedAnswer = 3
-        sender.backgroundColor = UIColor.lightGray
+        sender.backgroundColor = UIColor.cyan
         btnAnswer1.backgroundColor = UIColor.white
         btnAnswer2.backgroundColor = UIColor.white
         btnAnswer3.backgroundColor = UIColor.white
